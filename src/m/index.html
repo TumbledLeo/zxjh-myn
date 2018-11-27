@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- 判断是手机还是pc -->
+    <script>
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+
+        if (IsPC()) {
+            // 跳转到电脑板的网址
+            window.location.href = '../index.html';
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0">
+    <title>国家大剧院制作贝里尼歌剧《梦游女》</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../lib/swiper.min.css">
+    <link rel="stylesheet" href="../lib/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<audio id="music" src="../media/1.mp3" autoplay preload loop>您的浏览器不支持 audio 标签。</audio>
+
+<div class="header">
+    <a class="logo" href="http://www.chncpa.org"><img src="images/logo.png"></a>
+    <img src="images/logo2.png" class="logo2">
+</div>
+
+<div class="menu_wrap">
+    <a href="javascript:;" id="menu_btn" class="menu">menu</a>
+    <a href="javascript:;" id="music-btn" class="music-btn on"></a>
+</div>
+
+<div class="main">
+    <section id="home" class="full home">
+        <div class="inner">
+            <h1 class="title_text wow zoomIn" data-wow-duration="2s">梦游女</h1>
+            <h2 class="subtitle_text wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">08.28 - 09.02</h2>
+            <p class="home_text3 wow fadeInUp" data-wow-duration="2s"> 一段由“梦游”引发的爱情危机 一部花腔咏叹调迭起的美声歌剧,首度亮相 国家大剧院·戏剧场</p>
+
+            <div class="btn_group wow fadeInUp" data-wow-duration="1.5s">
+                <a href="http://ticket.chncpa.org/product-1048015.html" class="ticket_btn">立即订票</a>
+                <a href="javascript:;" class="video_btn"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 剧目剧情 -->
+    <section id="jmjq" class="full jmjq">
+        <h2 class="full_title wow fadeInUp" data-wow-duration="1.5s">剧目剧情</h2>
+        <div class="tabs wow fadeInUp" data-wow-duration="1.5s">
+            <span class="tab tab_lg">剧目介绍</span>
+            <span class="point"></span>
+            <span class="tab tab_lg">分幕剧情</span>
+        </div>
+        <div class="tabContents wow fadeInUp" data-wow-duration="1.5s">
+            <div class="tabContent">
+                <p>贝里尼一生共创作了十一部歌剧，其中《梦游女》《诺尔玛》《清教徒》三部歌剧最具代表。</p>
+                <p>
+                    贝里尼的歌剧创作从题材上分为两类：一类是继承罗西尼《威廉·退尔》的英雄主义，如《诺尔玛》和《清教徒》在当时都是具有爱国主义现实意义的作品。另一类则是贝里尼受浪漫主义思潮影响创作的充满幻想的抒情作品，《梦游女》就是这类作品的代表。这类作品旋律宽广悠长，常带有一缕哀思。这种独特的旋律、拱形的音乐线条、华丽的花腔乐句蕴藏着一种内在的动力，不仅使音乐与戏剧紧密相连，还突出了人物的性格特征。如剧中著名咏叹调《啊，满园鲜花凋零》《啊，我心中充满喜悦》就是“贝里尼式的声乐旋律”的典范，这种精美悠长的旋律、灵活自如的花腔刻画出了女主人翁“阿米娜”内心的忧郁悲哀及少女的青春和纯真。</p>
+                <p>
+                    《梦游女》是国家大剧院继《诺尔玛》之后制作的第二部贝里尼歌剧。国家大剧院再度邀请曾打造过《玫瑰骑士》的主创团队，世界知名导演吉尔伯特.德弗洛、欧洲著名舞美设计亚历桑德罗·卡梅拉和服装设计卡尔拉·里科蒂共同打造梦幻般的意大利浪漫主义歌剧。尤为擅长指挥意大利歌剧的世界著名指挥家丹尼尔·欧伦也将加盟，携手中外实力唱将共同演绎贝里尼这部美轮美奂的爱情歌剧。</p>
+            </div>
+            <div class="tabContent fmjq">
+                <div class="tabs">
+                    <span class="tab tab_md">第一幕</span>
+                    <span class="tab tab_md">第二幕</span>
+                </div>
+                <div class="tabContents">
+                    <div class="tabContent">
+                        <p>第一场：瑞士的一个小山村。众人欢聚高声合唱“阿米娜万岁”，村民们祝贺阿米娜这天将与青年农场主埃尔维诺订婚。旅店女主人莉萨愤愤地唱出“大家都如此欢乐，只有我独自哀叹”，原来她曾与埃尔维诺相爱，现在却失去了他。青年村民阿莱西奥上场向莉萨示爱，被她拒绝。埃尔维诺在公证人陪同下走上场来，与阿米娜双双宣誓，埃尔维诺给阿米娜戴上了母亲传下的戒指。随着一阵马车声，鲁道夫伯爵到来，因到城堡尚远，便决定在莉萨的旅店暂住一宿。村民已认不出他了。他见到阿米娜便赞美她的漂亮。暮色已浓，泰蕾莎让大家早点回家，并告诉鲁道夫这里夜间常有白色幽灵出现。众人走后，这对情侣为鲁道夫赞美阿米娜而争吵，之后两人又和好如初。</p>
+                        <p>第二场：乡村旅馆的一个房间里。莉萨已得知鲁道夫的伯爵身份，便来调情，窗外忽然传来喧闹声，莉萨赶快藏入更衣室，仓促中掉了披肩。身穿白色睡衣的阿米娜在梦游中从窗户进入房间，鲁道夫顿时明白了她就是村民们所谓的幽灵。阿米娜在梦游中喃喃自语，将鲁道夫当作了埃尔维诺，要投入他的怀抱，鲁道夫为了避嫌而离开房间。村民们前来欢迎伯爵的到来，却发现房内躺有女孩。这时莉萨领来了埃尔维诺和泰蕾莎，不无得意地让他们看到熟睡在伯爵房间的阿米娜，令众人十分惊讶。阿米娜被吵醒，全然不知发生了什么，大家对她加以谴责。泰蕾莎坚信阿米娜是清白的，并拣起了莉萨掉下的披肩。埃尔维诺气愤地宣布取消婚礼。阿米娜百口难辩，悲痛欲绝。</p>
+                    </div>
+                    <div class="tabContent">
+                        <p>第一场：去往伯爵城堡路上的阴暗的山谷。村民们集合起来想要去请鲁道夫伯爵帮助阿米娜洗清误解。阿米娜和泰蕾莎也来了。埃尔维诺见到阿米娜，斥责她的不忠。村民们从城堡回来，说伯爵已证明阿米娜无罪。但埃尔维诺不信，从阿米娜手指上取下了订婚戒指。</p>
+                        <p>第二场：磨坊。埃尔维诺来到，亲吻莉萨，准备与她重修就好并去教堂举行婚礼。这时鲁道夫闻讯赶来。伯爵向埃尔维诺解释阿米娜的梦游症，但埃尔维诺并不相信，村民们也半信半疑。泰蕾莎说阿米娜因听到埃尔维诺将与莉萨结婚的消息过于悲伤，好不容易安睡，请求大家安静，又出示莉萨掉在伯爵房间里的披肩揭穿她的谎言。此时阿米娜的梦游症又复发，只见她身穿白睡衣，似睡非睡晃晃悠悠地出现在水车上，村民们都为她捏一把汗，祈祷她平安无事。阿米娜极为伤心，但仍祈祷埃尔维诺幸福，虽然戒指已被收回，但永恒的爱不会失去。见到这一切，埃尔维诺深受感动，将戒指重新戴在阿米娜手上。阿米娜醒来了，幸福地唱起“啊，我心中充满喜悦”。众人同贺有情人终成眷属。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--主创主演-->
+    <section id="zczy" class="full zczy">
+        <h2 class="full_title wow fadeInUp" data-wow-duration="1.5s">主创主演</h2>
+        <a class="zczy_more" href="http://m.chncpa.org/product-1048015.html">了解更多 >></a>
+        <div class="tabs wow fadeInUp" data-wow-duration="1.5s">
+            <span class="tab tab_sm">主创</span>
+            <span class="point"></span>
+            <span class="tab tab_sm">主演</span>
+        </div>
+        <div class="tabContents wow fadeInUp" data-wow-duration="1.5s">
+            <div class="tabContent js_zc">
+                <div class="big_img">
+                    <img class="image_large" src="images/zc01.png">
+                    <p class="subtext">丹尼尔·欧伦（导演）</p>
+                </div>
+                <div class="small_imgs">
+                    <ul class="head_lsit js_head_list">
+                        <li>
+                            <img src="images/zc01.png">
+                            <p class="text">丹尼尔·欧伦</p>
+                            <p class="subtext">指挥</p>
+                        </li>
+                        <li>
+                            <img src="images/zc02.png">
+                            <p class="text">吉尔伯特·德弗洛</p>
+                            <p class="subtext">导演</p>
+                        </li>
+                        <li>
+                            <img src="images/zc03.png">
+                            <p class="text">亚历桑德罗·卡梅拉</p>
+                            <p class="subtext">舞美设计</p>
+                        </li>
+                        <li>
+                            <img src="images/zc04.png">
+                            <p class="text">卡拉·里科蒂</p>
+                            <p class="subtext">服装设计</p>
+                        </li>
+                        <li>
+                            <img src="images/zc05.png">
+                            <p class="text">韦尼乔·凯利</p>
+                            <p class="subtext">灯光设计</p>
+                        </li>
+                        <li>
+                            <img src="images/zc06.png">
+                            <p class="text">胡天骥</p>
+                            <p class="subtext">多媒体设计</p>
+                        </li>
+                        <li>
+                            <img src="images/zc07.png">
+                            <p class="text">阿蕾桑德拉·潘泽沃尔塔</p>
+                            <p class="subtext">编舞</p>
+                        </li>
+                        <li>
+                            <img src="images/zc08.png">
+                            <p class="text">马可·贝雷依</p>
+                            <p class="subtext">合唱指挥</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tabContent js_zy">
+                <div class="big_img">
+                    <img class="image_large" src="images/zy01.png">
+                    <p class="subtext">迪里拜尔 饰 阿米娜</p>
+                </div>
+                <div class="small_imgs">
+                    <ul class="head_lsit js_head_list">
+                        <li>
+                            <img src="images/zy01.png">
+                            <p class="text">迪里拜尔 饰</p>
+                            <p class="subtext">阿米娜</p>
+                        </li>
+                        <li>
+                            <img src="images/zy02.png">
+                            <p class="text">罗莎·费奥拉 饰</p>
+                            <p class="subtext">阿米娜</p>
+                        </li>
+                        <li>
+                            <img src="images/zy03.png">
+                            <p class="text">安东尼奥·希拉古萨 饰</p>
+                            <p class="subtext">埃尔维诺</p>
+                        </li>
+                        <li>
+                            <img src="images/zy04.png">
+                            <p class="text">安东·罗西茨基</p>
+                            <p class="subtext">埃尔维诺</p>
+                        </li>
+                        <li>
+                            <img src="images/zy08.png">
+                            <p class="text">张文巍 饰</p>
+                            <p class="subtext">鲁道夫伯爵</p>
+                        </li>
+                        <li>
+                            <img src="images/zy07.png">
+                            <p class="text">米尔科·帕拉兹 饰</p>
+                            <p class="subtext">鲁道夫伯爵</p>
+                        </li>
+                        <li>
+                            <img src="images/zy06.png">
+                            <p class="text">李欣桐 饰</p>
+                            <p class="subtext">莉萨</p>
+                        </li>
+                        <li>
+                            <img src="images/zy05.png">
+                            <p class="text">刘恋 饰</p>
+                            <p class="subtext">莉萨</p>
+                        </li>
+                        <li>
+                            <img src="images/zy11.png">
+                            <p class="text">杨燕婷 饰</p>
+                            <p class="subtext">泰蕾莎</p>
+                        </li>
+                        <li>
+                            <img src="images/zy10.png">
+                            <p class="text">王猛 饰</p>
+                            <p class="subtext">阿莱西奥</p>
+                        </li>
+                        <li>
+                            <img src="images/zy09.png">
+                            <p class="text">扣京 饰</p>
+                            <p class="subtext">公证人</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 剧目解析 -->
+    <section id="jmjx" class="full jmjx">
+        <h2 class="full_title wow fadeInUp" data-wow-duration="1.5s">剧目解析</h2>
+
+        <div class="tabContents wow fadeInUp" data-wow-duration="1.5s">
+            <div class="tabs">
+                <span class="tab cur">行于迷梦内外的爱情</span>
+                <div class="tabContent">
+                    <div class="scroll_inner">
+                        <p class="textalign_r">——文森佐·贝里尼的歌剧《梦游女》</p>
+                        <p>意大利作曲家文森佐·贝里尼的歌剧《梦游女》是19世纪早期一部令人称奇的舞台杰作。在浪漫主义审美趣味影响下，以爱情为主题的抒情歌剧受到人们的普遍欢迎。从1830年末到1831年初，贝里尼在经历了异常紧张的创作后，终于将这部由脚本搭档罗马尼编写的《梦游女》搬上舞台。1831年3月6日，歌剧《梦游女》在米兰的卡卡诺剧院举行首演并取得巨大成功。歌剧观众和评论家们被新颖的题材和绚丽的演唱所吸引，好评如潮。年仅26岁的俄国作曲家米哈伊尔·格林卡出席了这场演出，对舞台的情景赞赏有加，“帕斯塔和鲁比尼（两位歌剧主角的扮演者）以最大的热情支持着他们心爱的指挥……第二幕中，演员自己唱着都落下泪来，引导观众一路前行”。</p>
+                        <p>歌剧《梦游女》的迷人之处首先在于它的故事情节和戏剧布局。贝里尼以传统的三幕模式（尽管原有的第二幕经常被作为第一幕的第二场上演）创作这部歌剧，向观众叙述了一段同睡梦相关的爱情故事。自莎士比亚的《仲夏夜之梦》开始，人们就对戏剧中成对出现的情侣及其矛盾纠葛乐此不疲。莫扎特在他的《女人心》《费加罗的婚姻》中更是将多对穿插的恋情树立为歌剧经典。贝里尼的《梦游女》一无例外地将四个主角纳入到或深或浅地情感关系之中。19世纪初的瑞士乡村，被当地人誉为瑞士之花的阿米娜即将同心上人埃尔维诺结婚。在令人倍感亲切的田园村社之间，人们纷纷对这对恋人表示祝贺，唯有同样爱着男主人公的旅店女老板莉萨闷闷不乐，感叹这即将逝去的思恋。此时，一位归乡的鲁道夫伯爵在阿米娜近乎美满的情感之湖里激起几许涟漪。鲁道夫伯爵称赞阿米娜的美貌，并同美人言语交流。鲁道夫的言行引起埃尔维诺的不安和猜忌，生怕自己完满的姻缘发生变化。众人将鲁道夫伯爵推荐到莉萨开办的旅馆住下，为莉萨的嫉妒与报复带来机会。</p>
+                        <p>歌剧最为精彩的部分莫过于对阿米娜梦游的描述。当这位美人带着梦呓般的独白走入伯爵房中，并在床上睡去的一刻，仿佛使戏剧在叙事维度上发生穿越。这种穿越令剧中人物为之错愕，也让所有观众始料未及。阿米娜的梦游将理想与现实一把扯开，也让自身在乡民眼中滑向迷失的边缘。少不更事的埃尔维诺将阿米娜的举动视为背叛，怨恨她怎会糊里糊涂上了别人的床。阿米娜在清醒后的惶惑中有口难辩，任凭众人冷眼旁观。纯洁无瑕的美人因梦游被人指为水性杨花，自己的心上人仅仅一天就要同别的女人同枕共眠。梦游使女主人公堕入不堪的境地，却也折射出他人的无知与缺陷。旋转的水车象征着活跃躁动的心灵（1823年，弗朗兹·舒伯特在《美丽的磨坊女》用水车做过类似象征）。男女们在夜晚畏惧幽灵，白天却有着魔般挥霍着四溢的感情。清白无辜在众人口耳之欲的狂涛中变得脆弱难当，唯有再次入梦方可重拾真诚。阿米娜的第二次梦游令一夜“风流”真相大白。伯爵的释然、莉萨的怨愤、埃尔维诺的顿悟，以及众人的再次错愕，都凝聚在美人婷立的孤桥之上。“啊，满园鲜花凋零”阿米娜的咏唱触动每个人的内心，难道现实的残酷不似一场更可怕的噩梦？</p>
+                        <p>歌剧结尾，阿米娜在众人的欢呼中惊醒，重获爱与幸福。然而，美好的结局首次成为一部“喜剧”的配饰，人们爱上的竟是女主人公的失爱与忧伤。阿米娜之梦游，引得我们踏上属于自己的那段孤桥，追忆着相似的爱与希望。</p>
+                        <p class="textalign_r">文/北京大学艺术学院 刘小龙</p>
+                    </div>
+                </div>
+                <span class="tab">你一定会爱上《梦游女》</span>
+                <div class="tabContent">
+                    <div class="scroll_inner">
+                        <p>标题有点武断。不过待你看过了歌剧，也许就同意这话了。</p>
+                        <p>梦游是睡眠中自行下床行动，而后再回床继续睡眠的怪异现象。在神经学上是一种睡眠障碍，症状一般为在半醒状态下在居所内走动，但有些患者会离开居所或做出一些危险的举动。</p>
+                        <p>梦游的奇怪现象是，当事人可在行动中从事很复杂的活动，会开门上街、拿取器具或躲避障碍物，而不致碰撞受伤。活动结束后，再自行回到床上，继续睡眠。</p>
+                        <p>据记载贝里尼的歌剧《梦游女》1831年首演时，节目册印着类似上面的文字（也有说是印在出版的歌剧脚本及总谱上），当时梦游症刚得到医学认知不久，算是个新鲜事物，说不定还是歌剧的卖点之一。我们“笑仿”一下。</p>
+                        <p>《梦游女》最初是法国作家E.斯克利布为芭蕾舞剧撰写的脚本，由费迪南.埃罗尔德作曲，1827年首演于巴黎。几年后意大利享有盛名的剧作家F.罗马尼将它改写为歌剧脚本，贝里尼用不长的时间完成谱曲，1831年3月在米兰首演大获成功，之后不仅在意大利定期上演，还很快被搬到伦敦和纽约的歌剧舞台上。</p>
+                        <p>故事情节并不新奇：爱情，嫉妒，误会，伤心，和解，皆大欢喜——这是意大利歌剧最常见的内容，但剧中的情感纠葛起因于女主角的梦游，这就颇让人好奇了。人人喜欢的村姑阿米娜即将与年轻农场主埃尔维诺订婚，乡亲们都为她庆贺，唯有埃尔维诺以前的恋人莉萨、小旅店女老板闷闷不乐。订婚仪式后，少小离家的鲁道夫伯爵突然来到这里，他热情赞美家乡也赞美了可爱的阿米娜。当晚伯爵留宿莉萨的小旅店，正如乡亲们所说，一个白衣幽灵出现在月色下，恍恍惚惚居然走进伯爵房间，倒在床上睡去，原来她就是阿米娜。伯爵为保全女孩名誉迅速离开旅店，天亮了，打算为伯爵举行欢迎仪式的众乡亲来到这里，莉萨也叫来了埃尔维诺，看到床上熟睡的阿米娜大吃一惊，被惊醒的阿米娜不知身在何处，埃尔维诺当众宣布解除婚约。善良的众乡亲虽百般不解但还是同情阿米娜，集合起来去伯爵宅邸寻求帮助，怒不可遏的埃尔维诺却宣布立即与莉萨结婚。伯爵赶来向人们解释“梦游症”是怎么回事，恰在此时阿米娜又犯了梦游病，众目睽睽之下她唱着伤心的歌走过小桥。埃尔维诺恍然大悟，伸出双臂迎接阿米娜，众人为他们的幸福热烈欢呼。</p>
+                        <p>贝里尼的音乐十分惹人喜爱，一方面，贯穿全剧的村民合唱生动亲切，营造了清新怡人的田园场景，另一方面，大量优美唱段成功塑造了人物性格，揭示了真挚细腻的内心情感，并充分发挥了那个时代特有的美声魅力。</p>
+                        <p>女高音阿米娜的音乐形象是多面的，最初的亮相唱段“今天是我的好日子”满怀感恩之情，紧接着的“我心欢跳不已”又展现了少女的天真活泼，几乎每一句旋律都带有漂亮花腔，将喜悦之情表现得淋漓尽致。当她因梦游被爱人误解，音乐形象又变成了另一个样子，尤其是第二次梦游时的大段独唱，先是伤感的宣叙调“我多想再见他一次，在他与别人走进教堂之前”，然后是咏叹调 “满园鲜花已凋零”，虽然人在梦里，感情却是真切的，旋律中满是伤心绝望。当埃尔维诺把戒指重新戴到阿米娜手上，众人的欢呼将她惊醒，她瞬间回到天真活泼的少女形象，唱起“我心中充满喜悦”，这段节奏活泼、旋律跳跃且充满高难度花腔技巧的咏叹调将快乐情绪推到顶点。</p>
+                        <p>男主角埃尔维诺的音乐是典型的19世纪上半叶意大利轻型抒情男高音风格，声音特点是清亮而灵活，既可以抒情柔和也可以展示花腔，通常是扮演年轻多情的男子。埃尔维诺的音乐性格既温柔热烈又敏感脆弱，贝里尼给他写了大量精美的旋律，将这种声音发挥到极致，不过都不是独立的咏叹调，而是常常在他的大段歌唱之后直接转为重唱。</p>
+                        <p>其他角色也在贝里尼的音乐中活灵活现。鲁道夫伯爵（男中音）被他处理为生性浪漫又不失高贵理性，先是以一曲抒情的“再次看到这美丽的地方”表现对家乡和青春的怀恋，一扭头见到美丽的阿米娜，立刻变成特别会讨姑娘的男人，惹得埃尔维诺醋意大发。莉萨（女高音）也有充分的表现，无论是表现嫉妒还是欣喜若狂，她的咏叹调都漂亮而性格鲜明。</p>
+                        <p>剧中有大量出色的重唱，特别让人满意的是贝里尼不落俗套，他将音乐与剧情紧密联系，因此每首重唱各具特色。第一幕“请戴上我给你的戒指”以男高音为主，在埃尔维诺充满爱意的温柔旋律中插入阿米娜幸福的感慨，极好地表现了年轻人的两情相悦。阿米娜梦游闯入伯爵房间的场景是一段有趣的二重唱，这里更突出的是阿米娜，她在梦中向爱人发出誓言，伯爵则是不安的自语。结束第一幕的重唱加合唱极富戏剧性，被惊醒的阿米娜不知所措，埃尔维诺痛心疾首，众人从遗憾不满发展到群情激奋。第二幕开始的二重唱（带合唱）以埃尔维诺为主，满腔的孤独痛楚，阿米娜上前表白反倒激起他的怒气，抓住阿米娜的手摘下了戒指，接下来的“我多么想恨你，却做不到”展现了他的内心折磨，听来令人寸断肝肠。此外，第二幕莉萨、埃尔维诺、泰蕾莎（阿米娜的养母）、阿莱西奥（莉萨的追求者）、鲁道夫伯爵的五重唱也很出色，同时展现每个人不同的情感，耐人寻味。</p>
+                        <p>剧中合唱起到了重要作用，不仅有力推动了剧情，也从音响上形成了衬托和对比。不过这群村民多少有点糊涂，总是一窝蜂地跟着情势转变，第一幕里庆贺阿米娜订婚，第二幕得知埃尔维诺改娶莉萨，又是一番同样的庆贺，无脑到令人发噱。不过他们的善良质朴还是很让人喜欢的。</p>
+                        <p>特别提请观众注意一下贝里尼对语言和音乐关系的处理方式。骄傲的瓦格纳对贝里尼的评价是“音乐给人以强烈的感受，而且与歌词结合得非常完美”，可见他充分体会到了旋律中的语言音韵美以及准确鲜明的情感表达，我们若细细聆听，应该也会有这种感受。</p>
+                        <p>最后简单说说作曲家贝里尼的生平。他出生于西西里一个音乐世家，21岁进入祖父和父亲都曾就读的那不勒斯音乐学院，三年后的毕业作品是一部成功的歌剧，从此开始接受歌剧院正式委约，起初是那不勒斯的圣卡洛歌剧院，然后是米兰的斯卡拉歌剧院，后来因情感原因去了伦敦，1834年来到巴黎，在作曲家罗西尼的大力举荐下为巴黎的意大利歌剧院创作了《清教徒》，谁知这竟是他的绝笔之作，第二年就在巴黎因病去世，很多人为这位天才的早夭扼腕叹息。不足34岁的贝里尼共写有10部歌剧，其中《梦游女》《诺尔玛》《清教徒》至今是歌剧院的保留剧目。</p>
+                        <p>贝里尼的音乐以情感真挚、旋律动听为主要特点，虽有大量美声技巧的展示，但都与真情实感融为一体。音乐史学家将他的歌剧风格称作“半正歌剧”，即在严肃的题材和古典的歌剧模式中添加浪漫主义的背景和感伤。在贝里尼的《诺尔玛》和《清教徒》中我们甚至可以发现法国大歌剧的某些因素，但无论如何，抒情是他的主要目的。据记载，波兰钢琴诗人肖邦与他一见如故，在他的很多钢琴曲中可以听到类似贝里尼歌剧中女高音的抒情歌唱及花腔乐句。如果你熟悉威尔第的歌剧，也会在聆赏贝里尼的时候惊喜地发现威尔第很多写法是来自这位前辈，只是威尔第更加粗犷强悍，贝里尼则温暖亲切。</p>
+                        <p>贝里尼的音乐天赋就停留在他的青春时光里了。诗人海涅曾说贝里尼的音乐是来自上天的，他感慨道：“多么希望你不是天才，或许这样你会活得长一点”。</p>
+                        <p class="textalign_r">文/天津音乐学院 周小静</p>
+                    </div>
+                </div>
+                <span class="tab">视频赏析</span>
+                <div class="tabContent">
+                    <video id="video_2" src="../media/2.mp4" controls> 您的浏览器版本太低,请及时更新</video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 舞美赏析 -->
+    <section id="wmsx" class="full wmsx">
+        <h2 class="full_title wow fadeInUp" data-wow-duration="1.5s">舞美赏析</h2>
+
+        <!-- Swiper -->
+        <div class="swiper-container wow fadeInUp" data-wow-duration="1.5s">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/wm1.jpg">
+                    <p>19世纪初的瑞士村庄，美丽的少女阿米娜和年轻的农民埃尔维诺订婚，这让当地旅店的女主人莉萨大为伤心，以致对暗恋她的阿莱西奥也不加理会。</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/wm2.jpg">
+                    <p>婚礼前一天来了一位陌生人鲁道夫伯爵，他住进莉萨的旅店。莉萨深夜来到鲁道夫房间调情，此时，阿米娜突然梦游进来，莉萨赶快躲起来，鲁道夫也离开了自己的房间，以免引起非议。</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/wm3.jpg">
+                    <p>阿米娜醒来后，埃尔维诺气愤地宣布取消婚礼。虽然鲁道夫为阿米娜的清白进行了解释，但埃尔维诺仍不为所动，并决定要娶莉萨为妻。</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/wm4.jpg">
+                    <p>鲁道夫向埃尔维诺和村民说明阿米娜得了梦游症，但没有人相信</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/wm5.jpg">
+                    <p>此时，阿米娜突然又开始了梦游，大家屏息等她走到安全之所才将她唤醒，埃尔维诺也终于重新接纳阿米娜。</p>
+                </div>
+            </div>
+            <!-- Add Pagination
+            <div class="swiper-pagination"></div>
+             -->
+        </div>
+
+        <img src="images/footer.png" class="footer">
+    </section>
+</div>
+
+<div class="dialog_menu">
+    <a href="javascript:;" class="close_menu"></a>
+    <div class="inner animated fadeInDown">
+        <nav class="nav">
+            <ul>
+                <li class="cur"><a href="#home">首页</a></li>
+                <li><a href="#jmjq">剧目剧情</a></li>
+                <li><a href="#zczy">主创主演</a></li>
+                <li><a href="#jmjx">剧目解析</a></li>
+                <li><a href="#wmsx">舞美赏析</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="dialog_video">
+    <div class="inner">
+        <video id="video" src="../media/1.mp4" controls>您的浏览器不支持 video 标签。</video>
+    </div>
+    <a href="javascript:;" class="close_btn close_video"></a>
+</div>
+<script src="../lib/jquery/jquery-1.11.3.min.js"></script>
+<script src="../lib/swiper.min.js"></script>
+<script src="../lib/wow.min.js"></script>
+<script src='js/rem.js'></script>
+<script src='js/index.js'></script>
+</body>
+</html>
